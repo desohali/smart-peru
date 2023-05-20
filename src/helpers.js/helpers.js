@@ -38,3 +38,25 @@ export const handleArrayFiles = (arrayFiles, { sizeCanvas = 320, bgColor = "whit
     setFiles(arrayStringBase64);
   });
 }
+
+export const returnDiasHorasMinutosSegundos = (segundos) => {
+
+  const segundosR = Math.round(segundos),
+    segundosMod = (segundosR % 60),
+    minutos = ((segundosR - segundosMod) / 60),
+    minutosMod = (minutos % 60),
+    horas = ((minutos - minutosMod) / 60),
+    horasMod = (horas % 24),
+    dias = ((horas - horasMod) / 24),
+    formato = function (numero) {
+      return (numero < 10) ? `0${numero}` : numero;
+    };
+
+  return {
+    dias: dias,
+    horas: formato(horasMod),
+    minutos: formato(minutosMod),
+    segundos: formato(segundosMod)
+  };
+
+}

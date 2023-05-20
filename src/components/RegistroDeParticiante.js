@@ -4,11 +4,13 @@ import { useFormik } from 'formik';
 import * as Yup from "yup";
 import { LoadingButton } from '@mui/lab';
 import SendIcon from '@mui/icons-material/Send';
+import foro from "../assets/images/foro.jpg";
 import convencion from "../assets/images/convencion.jpg";
 import AssignmentIndIcon from '@mui/icons-material/AssignmentInd';
 import ImageIcon from '@mui/icons-material/Image';
 import { handleArrayFiles } from '../helpers.js/helpers';
 import Swal from 'sweetalert2';
+import { useParams } from 'react-router-dom';
 
 // schema form about me
 const formikSchema = Yup.object().shape({
@@ -20,6 +22,21 @@ const formikSchema = Yup.object().shape({
 
 const RegistroDeParticiante = () => {
 
+  const { evento } = useParams();
+
+  React.useEffect(() => {
+    let newImagenes;
+    if (["convencion"].includes(evento)) {
+      newImagenes = new Image();
+      newImagenes.src = convencion;
+    } else {
+      newImagenes = new Image();
+      newImagenes.src = foro;
+    }
+
+  }, []);
+
+
   const inputAttachRef = React.useRef();
   const [vaucher, setVaucher] = React.useState([]);
 
@@ -27,6 +44,7 @@ const RegistroDeParticiante = () => {
   const formik = useFormik({
     validateOnMount: true,
     initialValues: {
+      evento: evento,
       nombresCompletos: '',
       celular: '',
       dni: '',
@@ -35,7 +53,29 @@ const RegistroDeParticiante = () => {
     validationSchema: formikSchema,
     onSubmit: async (values) => {
       if (!Object.entries(values).some(([, value]) => /\S{3,}/.test(value))) return false;
-      if (!vaucher.length) return false;
+      if (!vaucher.length) {
+        Swal.fire(
+          'ADJUNTAR VAUCHER ES REQUERIDO !',
+          'POR FAVOR ADJUNTAR VAUCHER DE PAGO, GRACIAS .',
+          'info'
+        )
+        return false;
+      }
+
+      const formData = new FormData();
+      for (const key in values) {
+        formData.append(key, values[key]);
+      }
+      formData.append('vaucher', vaucher[0]?.originalFile);
+
+      const response = await fetch(window.location.hostname == "localhost"
+        ? "http://localhost:7000/registrarParticipante"
+        : "https://yocreoquesipuedohacerlo.com/registrarParticipante", {
+        method: "post",
+        body: formData
+      });
+      const json = await response.json();
+      console.log('json', json);
 
       Swal.fire(
         'ENVIADO CON EXITO !',
@@ -45,16 +85,6 @@ const RegistroDeParticiante = () => {
         formik.resetForm();
         setVaucher([]);
       });
-
-      /* await createProfile({
-        uid: user ? user.uid : null,
-        createProfileInput: values
-      }).unwrap();
-
-      enqueueSnackbar("successfully saved about me !".toUpperCase(), {
-        autoHideDuration: 6000,
-        variant: "success"
-      }); */
     },
   });
 
@@ -62,7 +92,7 @@ const RegistroDeParticiante = () => {
     <Grid container spacing={1}>
       <Grid item xs={12} sm={12} md={12} lg={12}>
         <div style={{ width: "100%", textAlign: "center" }}>
-          <img width='100%' src={convencion} />
+          <img width='100%' src={["convencion"].includes(evento) ? convencion : foro} />
         </div>
       </Grid>
 
@@ -161,8 +191,8 @@ const RegistroDeParticiante = () => {
                   ADJUNTAR VAUCHER
                 </Button>
 
-                {(vaucher || []).map((file) => (
-                  <img width='100%' src={file.miniFile} />
+                {(vaucher || []).map((file, i) => (
+                  <img key={i} width='100%' src={file.miniFile} />
                 ))}
               </Grid>
 

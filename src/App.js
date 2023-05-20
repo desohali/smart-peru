@@ -10,6 +10,8 @@ import ForoEnIA from './components/ForoEnIA';
 import Convencion from './components/Convencion';
 import RegistroDeParticiante from './components/RegistroDeParticiante';
 import Contactanos from './components/Contactanos';
+import AsesoriaEmpresarial from './components/AsesoriaEmpresarial';
+import ConsultoriaDeNegocios from './components/ConsultoriaDeNegocios';
 
 /* import {
   LoginSocialFacebook,
@@ -76,8 +78,11 @@ function App() {
       <Route path="/seminarios" element={<Seminarios />} />
       <Route path="/contactanos" element={<Contactanos />} />
 
-      <Route path="/registro-de-participante" element={<RegistroDeParticiante />} />
+      <Route path="/registro-de-participante/:evento" element={<RegistroDeParticiante />} />
       <Route path="/convencion" element={<Convencion />} />
+
+      <Route path="/asesoria-empresarial" element={<AsesoriaEmpresarial />} />
+      <Route path="/consultoria-de-negocios" element={<ConsultoriaDeNegocios />} />
 
       <Route path="/" element={<Home />} >
       </Route>
