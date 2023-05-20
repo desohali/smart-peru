@@ -151,7 +151,7 @@ const Home = () => {
 
       <Grid item xs={12} sm={12} md={12} lg={12}>
         <Typography style={{ padding: "0px 2rem" }} align='center' color="text.secondary" variant={window.innerWidth > 768 ? "h4" : "p"} component="div">
-          Transformamos la economía de nuestros paises entrenando a la proxima generación de profecionales en tecnologia
+          Transformamos la educación de nuestras regiones entrenando a la próxima generación de profesionales del país.
         </Typography>;
       </Grid>
 

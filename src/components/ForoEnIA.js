@@ -6,6 +6,14 @@ import { useNavigate } from 'react-router-dom';
 const ForoEnIA = () => {
 
   const navigate = useNavigate();
+
+  React.useEffect(() => {
+    let newImagenes;
+    newImagenes = new Image();
+    newImagenes.src = foro;
+  }, []);
+
+
   return (
     <React.Fragment>
       <Grid container spacing={2}>

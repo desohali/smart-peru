@@ -4,6 +4,13 @@ import convencion from "../assets/images/convencion.jpg";
 import { useNavigate } from 'react-router-dom';
 
 const Convencion = () => {
+
+  React.useEffect(() => {
+    let newImagenes;
+    newImagenes = new Image();
+    newImagenes.src = convencion;
+  }, []);
+
   return (
     <Grid container spacing={2}>
       <Grid item xs={12} sm={12} md={12} lg={12}>
