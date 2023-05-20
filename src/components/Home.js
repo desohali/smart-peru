@@ -2,29 +2,29 @@ import * as React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import logo from "../assets/images/logo.png";
+
 import image1 from "../assets/images/cambio1.jpg";
 import image2 from "../assets/images/cambio2.jpg";
 import image3 from "../assets/images/cambio3.jpg";
+import image4 from "../assets/images/cambio4.jpg";
+import image5 from "../assets/images/cambio5.jpg";
+import image6 from "../assets/images/cambio6.jpg";
+import image7 from "../assets/images/cambio7.jpg";
+import image8 from "../assets/images/cambio8.jpg";
 import { Button, Grid, ListItemIcon, ListItemText, Menu, MenuItem, Typography } from '@mui/material';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import TouchAppIcon from '@mui/icons-material/TouchApp';
 import { useNavigate } from 'react-router-dom';
 
 const images = [
-  { image: logo, text: "" },
-  {
-    image: image1, text: `smart perú es una plataforma de educación peruana de aprendizaje
-  en línea y mediante eventos de nivel ejecutivo donde puedes desarrollar
-  tus habilidades y adaptarse al futuro profecional` },
-  {
-    image: image2, text: `smart perú es una plataforma de educación peruana de aprendizaje
-  en línea y mediante eventos de nivel ejecutivo donde puedes desarrollar
-  tus habilidades y adaptarse al futuro profecional` },
-  {
-    image: image3, text: `smart perú es una plataforma de educación peruana de aprendizaje
-  en línea y mediante eventos de nivel ejecutivo donde puedes desarrollar
-  tus habilidades y adaptarse al futuro profecional` },
+  image1,
+  image2,
+  image3,
+  image4,
+  image5,
+  image6,
+  image7,
+  image8,
 ];
 
 const Home = () => {
@@ -32,7 +32,6 @@ const Home = () => {
 
   React.useEffect(() => {
     let newImagenes = [];
-
     for (let i = 0; i < images.length; i++) {
       newImagenes[i] = new Image();
       newImagenes[i].src = images[i];
@@ -59,49 +58,38 @@ const Home = () => {
     autoplay: true,
     pauseOnHover: false
   };
+
+
   return (
-    <Grid container spacing={1}>
+    <Grid container spacing={4}>
       <Grid item xs={12} sm={12} md={12} lg={12}>
-        <img width={window.innerWidth > 768 ? "240px" : "160px"} style={{ position: "absolute", zIndex: 10000 }} src={logo} />
         <Slider {...settings}>
-          {images.slice(1).reverse().map(({ image, text }, i) => (
-            <div className='container-carousel'>
+          {images.reverse().map((image, i) => (
+            <div key={i} className='container-carousel'>
               <img width='100%' src={image} />
-              <div style={{ position: "absolute", top: window.innerWidth > 768 ? "75%" : "35%", width: "100vw" }}>
-                <Typography
-                  style={{
-                    width: "75%",
-                    margin: "auto",
-                    color: "white",
-                    backgroundColor: "rgba(0,0,0,.4)",
-                    borderRadius: ".5rem"
-                  }}
-                  align='center'
-                  variant={window.innerWidth > 768 ? "h4" : "p"} component="p">
-                  {text}
-                </Typography>;
-              </div>
             </div>
           ))}
         </Slider>
       </Grid>
 
-      <Grid item xs={1} sm={1} md={1} lg={1}></Grid>
-      <Grid item xs={10} sm={10} md={10} lg={10}>
-        <Grid container spacing={2} sx={{ mt: 3 }}>
+      <Grid item xs={12} sm={12} md={1} lg={1}></Grid>
+      <Grid item xs={12} sm={12} md={10} lg={10}>
+        <Grid container spacing={1} sx={{ px: 2 }}>
+
           <Grid item xs={12} sm={6} md={3} lg={3}>
-            <Button onClick={() => navigate("./sobre-nosotros")} color='warning' fullWidth variant="contained">
+            <Button className='bg-smart-peru' onClick={() => navigate("./sobre-nosotros")} fullWidth variant="contained">
               SOBRE NOSOTROS
             </Button>
           </Grid>
           <Grid item xs={12} sm={6} md={3} lg={3}>
             <Button
+              className='bg-smart-peru'
               id="basic-button"
               aria-controls={open ? 'basic-menu' : undefined}
               aria-haspopup="true"
               aria-expanded={open ? 'true' : undefined}
               onClick={handleClick}
-              color='warning'
+              color='success'
               fullWidth
               variant="contained"
               endIcon={<KeyboardArrowDownIcon />}>
@@ -137,26 +125,37 @@ const Home = () => {
             </Menu>
           </Grid>
           <Grid item xs={12} sm={6} md={3} lg={3}>
-            <Button onClick={() => navigate("./cursos-online")} color='warning' fullWidth variant="contained">
+            <Button className='bg-smart-peru' onClick={() => navigate("./cursos-online")} color='success' fullWidth variant="contained">
               CURSOS ONLINE
             </Button>
           </Grid>
           <Grid item xs={12} sm={6} md={3} lg={3}>
-            <Button onClick={() => navigate("./seminarios")} color='warning' fullWidth variant="contained">
+            <Button className='bg-smart-peru' onClick={() => navigate("./seminarios")} color='success' fullWidth variant="contained">
               SEMINARIOS
             </Button>
           </Grid>
+
+          {window.innerWidth > 768 && <Grid item xs={12} sm={12} md={4} lg={4}></Grid>}
+          <Grid item xs={12} sm={12} md={4} lg={4}>
+            <Button className='bg-smart-peru' onClick={() => navigate("./contactanos")} color='success' fullWidth variant="contained">
+              CONTACTANOS
+            </Button>
+          </Grid>
+          <Grid item xs={12} sm={12} md={4} lg={4}></Grid>
+
         </Grid>
       </Grid>
-      <Grid item xs={1} sm={1} md={1} lg={1}></Grid>
+      <Grid item xs={12} sm={12} md={1} lg={1}></Grid>
 
-      <Grid item xs={12} sm={12} md={12} lg={12} sx={{ my: 3 }}>
-        <Typography align='center' color="text.secondary" variant="h5" component="div">
+
+
+      <Grid item xs={12} sm={12} md={12} lg={12}>
+        <Typography style={{ padding: "0px 2rem" }} align='center' color="text.secondary" variant={window.innerWidth > 768 ? "h4" : "p"} component="div">
           Transformamos la economía de nuestros paises entrenando a la proxima generación de profecionales en tecnologia
         </Typography>;
       </Grid>
 
-    </Grid>
+    </Grid >
   )
 };
 

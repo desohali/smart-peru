@@ -9,6 +9,7 @@ import Seminarios from './components/Seminarios';
 import ForoEnIA from './components/ForoEnIA';
 import Convencion from './components/Convencion';
 import RegistroDeParticiante from './components/RegistroDeParticiante';
+import Contactanos from './components/Contactanos';
 
 /* import {
   LoginSocialFacebook,
@@ -71,8 +72,10 @@ function App() {
     <Routes>
       <Route path="/sobre-nosotros" element={<SobreNosotros />} />
       <Route path="/cursos-online" element={<CursosOnline />} />
-      <Route path="/seminarios" element={<Seminarios />} />
       <Route path="/foro-en-ia" element={<ForoEnIA />} />
+      <Route path="/seminarios" element={<Seminarios />} />
+      <Route path="/contactanos" element={<Contactanos />} />
+
       <Route path="/registro-de-participante" element={<RegistroDeParticiante />} />
       <Route path="/convencion" element={<Convencion />} />
 
