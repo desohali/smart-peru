@@ -74,6 +74,10 @@ const Home = () => {
       newImagenes[i] = new Image();
       newImagenes[i].src = images[i];
     }
+
+    /* ia preload */
+    const iaImage = new Image();
+    iaImage.src = ia;
   }, []);
 
   /* handler menu eventos ejecutivos (EE) */
@@ -129,7 +133,7 @@ const Home = () => {
             NUEVO EVENTO
           </BootstrapDialogTitle>
           <DialogContent dividers>
-          <img width='100%' src={ia} />
+            <img width='100%' src={ia} />
           </DialogContent>
           <DialogActions>
             <Button autoFocus onClick={handleClose}>
