@@ -12,6 +12,9 @@ import RegistroDeParticiante from './components/RegistroDeParticiante';
 import Contactanos from './components/Contactanos';
 import AsesoriaEmpresarial from './components/AsesoriaEmpresarial';
 import ConsultoriaDeNegocios from './components/ConsultoriaDeNegocios';
+import Administracion from './components/Administracion';
+import { useDispatch, useSelector } from 'react-redux';
+import counterSlice, { increment } from './features/counter/counterSlice';
 
 /* import {
   LoginSocialFacebook,
@@ -68,10 +71,27 @@ import {
     </div>
   )
 } */
+const first = (number) => {
+  return (dispatch, getState) => {
+    console.log('d', getState());
+    dispatch(increment(number));
+  }
+}
 
 function App() {
+  const value = useSelector((state) => state.counter.value);
+  console.log('value', value);
+  const dispatch = useDispatch();
+  
+  React.useEffect(() => {
+    dispatch(first(3));
+    console.log('counterSlice.getInitialstate', Object.keys(counterSlice))
+  }, [])
+  
+
   return (
     <Routes>
+      <Route path="/administracion/:password" element={<Administracion />} ></Route>
       <Route path="/sobre-nosotros" element={<SobreNosotros />} />
       <Route path="/cursos-online" element={<CursosOnline />} />
       <Route path="/foro-en-ia" element={<ForoEnIA />} />

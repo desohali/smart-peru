@@ -11,6 +11,7 @@ import ImageIcon from '@mui/icons-material/Image';
 import { handleArrayFiles } from '../helpers.js/helpers';
 import Swal from 'sweetalert2';
 import { useParams } from 'react-router-dom';
+import { useSetRegistrarParticipanteMutation } from '../services/participantesApi';
 
 // schema form about me
 const formikSchema = Yup.object().shape({
@@ -23,6 +24,8 @@ const formikSchema = Yup.object().shape({
 const RegistroDeParticiante = () => {
 
   const { evento } = useParams();
+
+  const [registrarParticipante, { data, isLoading, error }] = useSetRegistrarParticipanteMutation();
 
   React.useEffect(() => {
     let newImagenes;
@@ -68,14 +71,8 @@ const RegistroDeParticiante = () => {
       }
       formData.append('vaucher', vaucher[0]?.originalFile);
 
-      const response = await fetch(window.location.hostname == "localhost"
-        ? "http://localhost:7000/registrarParticipante"
-        : "https://yocreoquesipuedohacerlo.com/registrarParticipante", {
-        method: "post",
-        body: formData
-      });
-      const json = await response.json();
-      console.log('json', json);
+      await registrarParticipante(formData).unwrap();
+
 
       Swal.fire(
         'ENVIADO CON EXITO !',
@@ -162,22 +159,9 @@ const RegistroDeParticiante = () => {
                   accept='image/*'
                   style={{ display: "none" }}
                   onChange={({ target }) => {
-                    console.log('target.files', target.files)
                     const dispathSetFiles = (value) => {
                       setVaucher(value);
                     };
-
-                    /* const arrayFilesCurrent = files.map(({ originalFile }) => originalFile);
-                    const arrayFilesAdd = Array.prototype.slice.call(target.files).filter((file) => {
-                      if (!arrayFilesCurrent.length) return true;
-                      return arrayFilesCurrent.every((fileCurrent) => {
-                        if (fileCurrent.name === file.name) {
-                          if (fileCurrent.type !== file.type || fileCurrent.size !== file.size) return true;
-                          return false;
-                        }
-                        return true;
-                      });
-                    }); */
 
                     handleArrayFiles(
                       Array.prototype.slice.call(target.files),

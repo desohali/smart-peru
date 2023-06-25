@@ -11,10 +11,48 @@ import cambio5 from "../assets/images/cambio5.jpg";
 import cambio6 from "../assets/images/cambio6.jpg";
 import cambio7 from "../assets/images/cambio7.jpg";
 import cambio8 from "../assets/images/cambio8.jpg";
-import { Button, Grid, ListItemIcon, ListItemText, Menu, MenuItem, Typography } from '@mui/material';
+import ia from "../assets/images/IA.jpeg";
+
+import { Button, DialogActions, DialogContent, DialogTitle, Grid, IconButton, ListItemIcon, ListItemText, Menu, MenuItem, Typography } from '@mui/material';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import TouchAppIcon from '@mui/icons-material/TouchApp';
 import { useNavigate } from 'react-router-dom';
+import Dialog from '@mui/material/Dialog';
+import CloseIcon from '@mui/icons-material/Close';
+import { styled } from '@mui/material/styles';
+
+const BootstrapDialog = styled(Dialog)(({ theme }) => ({
+  '& .MuiDialogContent-root': {
+    padding: theme.spacing(2),
+  },
+  '& .MuiDialogActions-root': {
+    padding: theme.spacing(1),
+  },
+}));
+
+function BootstrapDialogTitle(props) {
+  const { children, onClose, ...other } = props;
+
+  return (
+    <DialogTitle sx={{ m: 0, p: 2 }} {...other}>
+      {children}
+      {onClose ? (
+        <IconButton
+          aria-label="close"
+          onClick={onClose}
+          sx={{
+            position: 'absolute',
+            right: 8,
+            top: 8,
+            color: (theme) => theme.palette.grey[500],
+          }}
+        >
+          <CloseIcon />
+        </IconButton>
+      ) : null}
+    </DialogTitle>
+  );
+};
 
 const images = [
   cambio1,
@@ -69,9 +107,38 @@ const Home = () => {
     pauseOnHover: false
   };
 
+  /* modal dialog */
+  const [open, setOpen] = React.useState(true);
+
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+  const handleClose = () => {
+    setOpen(false);
+  };
 
   return (
     <Grid container spacing={4}>
+      <Grid>
+        <BootstrapDialog
+          onClose={handleClose}
+          aria-labelledby="customized-dialog-title"
+          open={open}
+        >
+          <BootstrapDialogTitle id="customized-dialog-title" onClose={handleClose}>
+            NUEVO EVENTO
+          </BootstrapDialogTitle>
+          <DialogContent dividers>
+          <img width='100%' src={ia} />
+          </DialogContent>
+          <DialogActions>
+            <Button autoFocus onClick={handleClose}>
+              CERRAR
+            </Button>
+          </DialogActions>
+        </BootstrapDialog>
+      </Grid>
+
       <Grid item xs={12} sm={12} md={12} lg={12}>
         <Slider {...settings}>
           {images.reverse().map((image, i) => (
@@ -185,7 +252,7 @@ const Home = () => {
                 <ListItemIcon>
                   <TouchAppIcon fontSize="small" />
                 </ListItemIcon>
-                <ListItemText>CONSULTARÍA DE NEGOCIOS</ListItemText>
+                <ListItemText>CONSULTORÍA DE NEGOCIOS</ListItemText>
               </MenuItem>
             </Menu>
           </Grid>
