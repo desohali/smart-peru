@@ -12,6 +12,7 @@ import cambio6 from "../assets/images/cambio6.jpg";
 import cambio7 from "../assets/images/cambio7.jpg";
 import cambio8 from "../assets/images/cambio8.jpg";
 import ia from "../assets/images/IA.jpeg";
+import smartperu from "../assets/images/SMARTPERU.jpg";
 
 import { Button, DialogActions, DialogContent, DialogTitle, Grid, IconButton, ListItemIcon, ListItemText, Menu, MenuItem, Typography } from '@mui/material';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
@@ -133,7 +134,7 @@ const Home = () => {
             NUEVO EVENTO
           </BootstrapDialogTitle>
           <DialogContent dividers>
-            <img width='100%' src={ia} />
+            <img width='100%' src={smartperu} />
           </DialogContent>
           <DialogActions>
             <Button autoFocus onClick={handleClose}>
