@@ -4,7 +4,7 @@ import foro from "../assets/images/foro.jpg";
 import { useNavigate } from 'react-router-dom';
 import { returnDiasHorasMinutosSegundos } from '../helpers.js/helpers';
 
-const ForoEnIA = () => {
+const SeminarioTaller = () => {
 
   const navigate = useNavigate();
 
@@ -69,7 +69,7 @@ const ForoEnIA = () => {
       <Grid container spacing={2} sx={{ px: 3, my: 3 }}>
         <Grid item xs={12} sm={12} md={12} lg={12}>
           <Divider>
-            <Chip label="FORO EN IA" />
+            <Chip label="SEMINARIO TALLER SMART" />
           </Divider>
         </Grid>
 
@@ -124,4 +124,4 @@ const ForoEnIA = () => {
   )
 }
 
-export default ForoEnIA
+export default SeminarioTaller
