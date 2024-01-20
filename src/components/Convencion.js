@@ -8,12 +8,12 @@ const Convencion = () => {
 
   const navigate = useNavigate();
 
-  const [fechaRestante, setFechaRestante] = React.useState(returnDiasHorasMinutosSegundos(((Date.parse(new Date("2023-11-08")) - Date.parse(new Date())) / 1000)));
+  const [fechaRestante, setFechaRestante] = React.useState(returnDiasHorasMinutosSegundos(((Date.parse(new Date("2024-07-22")) - Date.parse(new Date())) / 1000)));
   React.useEffect(() => {
     let interval;
     interval = setInterval(() => {
       const fechaActual = Date.parse(new Date());
-      const fechaDelEvento = Date.parse(new Date("2023-11-08"));
+      const fechaDelEvento = Date.parse(new Date("2024-07-22"));
       setFechaRestante(returnDiasHorasMinutosSegundos(((fechaDelEvento - fechaActual) / 1000)));
     }, 1000);
 
