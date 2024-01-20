@@ -74,17 +74,17 @@ const Convencion = () => {
 
         <Grid item xs={12} sm={12} md={6} lg={6}>
           <Typography variant={window.innerWidth > 768 ? "h6" : "p"} component="div" style={{ color: "orange" }}>
-            CONVENCIÓN :
+            CONVENCIÓN NACIONAL EN CIENCIAS EMPRESARIALES :
           </Typography>
           <Typography variant={window.innerWidth > 768 ? "h6" : "p"} component="div" color='text.secondary'>
-            Transformación Digital.
+            La era digital, una adaptación a los nuevos cambios
           </Typography>
 
           <Typography variant={window.innerWidth > 768 ? "h6" : "p"} component="div" style={{ color: "orange" }}>
             DIRIGIDO :
           </Typography>
           <Typography variant={window.innerWidth > 768 ? "h6" : "p"} component="div" color='text.secondary'>
-            Estudiantes y profesionales de todas las carreras profesionales, técnicas y universitarias.
+            El evento es dirigido a estudiantes técnicos, universitarios, profesionales de ciencias empresariales y público en general. El mismo que se desarrollará intercalando eventos académicos, paneles, talleres, visita a plantas técnicas y eventos de confraternidad. 
           </Typography>
         </Grid>
         <Grid item xs={12} sm={12} md={6} lg={6}>
@@ -92,14 +92,15 @@ const Convencion = () => {
             ESTRUCTURA Y MODALIDAD :
           </Typography>
           <Typography variant={window.innerWidth > 768 ? "h6" : "p"} component="div" color='text.secondary'>
-            Ponencias nacionales, Workshop, Merchandising, Panel, Sitting, Showroom + Fiesta temática. Modalidad híbrida.
+            La estructuración del proceso convencional se basará en el desarrollo de: Ponencias magistrales, Mesa de Dialogo Empresarial, Talleres y Visita a 04 plantas técnicas.
+
           </Typography>
 
           <Typography variant={window.innerWidth > 768 ? "h6" : "p"} component="div" style={{ color: "orange" }}>
-            ORGANIZACION :
+            ORGANIZACION Y DESARROLLO :
           </Typography>
           <Typography variant={window.innerWidth > 768 ? "h6" : "p"} component="div" color='text.secondary'>
-            Smart Perú y Centro Federado de Estudiantes de Economía - UNC.
+            La CONVENCIÓN NACIONAL en Ciencias Empresariales Sullana 2024 es desarrollado por SMARTPerú en alianza con instituciones nacionales y con el respaldo de instituciones regionales y locales, que se desarrollará del 22 al 26 de julio de 2024 en la ciudad de Sullana.
           </Typography>
         </Grid>
 
