@@ -76,10 +76,7 @@ const SobreNosotros = () => {
               <strong>Visión :</strong>
             </Typography>
             <Typography variant={window.innerWidth > 768 ? "h6" : "p"} component="div" color='text.secondary'>
-              Posicionarse como una Plataforma de Educación Ejecutiva de alta calidad
-              en el país, mediante una metodología de enseñanza eficiente y de bajos
-              costos, de  fácil acceso que le permita aprender y mejorar sus habilidades
-              de alta demanda en el mercado laboral.
+              Posicionarse como una consultora empresarial de nivel ejecutivo de alta calidad en el país, mediante una metodología de asesoría eficiente y de bajos costos, de fácil acceso que le permita aprender y mejorar sus habilidades de alta demanda en el mercado laboral.
             </Typography>
           </Grid>
           <Grid item xs={12} sm={4} md={3} lg={3}>
