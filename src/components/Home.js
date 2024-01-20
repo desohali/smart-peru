@@ -188,7 +188,7 @@ const Home = () => {
             >
               <MenuItem onClick={() => {
                 handleCloseEE();
-                navigate("./foro-en-ia");
+                navigate("./seminario-taller");
               }}>
                 <ListItemIcon>
                   <TouchAppIcon fontSize="small" />
