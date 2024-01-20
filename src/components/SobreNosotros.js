@@ -40,13 +40,7 @@ const SobreNosotros = () => {
             <Typography variant={window.innerWidth > 768 ? "h6" : "p"} component="div" color='text.secondary'>
               SmartPerú es una Plataforma de Educación de
               nivel ejecutivo, que brinda servicios y asesoría
-              a través de manera síncrono y asíncrono, online
-              y a través de eventos ejecutivos empresariales,
-              presenciales e híbridos. Nuestro compromiso es
-              brindar educación de calidad y de manera
-              accesible; contribuyendo a la formación
-              académica de estudiantes, egresados y
-              profesionales de  distintas carreras.
+              a través de manera síncrono y asíncrono.
             </Typography>
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={6}>
