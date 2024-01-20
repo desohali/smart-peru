@@ -230,7 +230,7 @@ const Home = () => {
               fullWidth
               variant="contained"
               endIcon={<KeyboardArrowDownIcon />}>
-              APOYO CONSULTORIA
+              CONSULTORIA EMPRESARIAL
             </Button>
             <Menu
               id="basic-menu"
