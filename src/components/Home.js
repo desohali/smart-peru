@@ -202,7 +202,7 @@ const Home = () => {
                 <ListItemIcon>
                   <TouchAppIcon fontSize="small" />
                 </ListItemIcon>
-                <ListItemText>CONVENCIÓN</ListItemText>
+                <ListItemText>CONVENCIÓN NACIONAL</ListItemText>
               </MenuItem>
             </Menu>
           </Grid>
