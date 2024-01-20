@@ -38,9 +38,7 @@ const SobreNosotros = () => {
               <strong>¿ Quiénes Somos ?</strong>
             </Typography>
             <Typography variant={window.innerWidth > 768 ? "h6" : "p"} component="div" color='text.secondary'>
-              SmartPerú es una Plataforma de Educación de
-              nivel ejecutivo, que brinda servicios y asesoría
-              a través de manera síncrono y asíncrono.
+              SMARTPerú es una comunidad académica, en proceso de constitución de personería jurídica como SMARTPerú Consultores | Corporate Meetings & Events, en el rubro de consultoría y asesoría empresarial, del mismo modo en la  planificación, organización y materialización efectiva y exitosa de eventos corporativos, cursos, talleres, seminarios y demás actividades de nivel ejecutivo.
             </Typography>
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={6}>
