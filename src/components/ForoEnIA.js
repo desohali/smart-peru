@@ -8,12 +8,12 @@ const ForoEnIA = () => {
 
   const navigate = useNavigate();
 
-  const [fechaRestante, setFechaRestante] = React.useState(returnDiasHorasMinutosSegundos(((Date.parse(new Date("2023-07-13")) - Date.parse(new Date())) / 1000)));
+  const [fechaRestante, setFechaRestante] = React.useState(returnDiasHorasMinutosSegundos(((Date.parse(new Date("2024-02-09")) - Date.parse(new Date())) / 1000)));
   React.useEffect(() => {
     let interval;
     interval = setInterval(() => {
       const fechaActual = Date.parse(new Date());
-      const fechaDelEvento = Date.parse(new Date("2023-07-13"));
+      const fechaDelEvento = Date.parse(new Date("2024-02-09"));
       setFechaRestante(returnDiasHorasMinutosSegundos(((fechaDelEvento - fechaActual) / 1000)));
     }, 1000);
 
@@ -75,17 +75,17 @@ const ForoEnIA = () => {
 
         <Grid item xs={12} sm={12} md={6} lg={6}>
           <Typography variant={window.innerWidth > 768 ? "h6" : "p"} component="div" style={{ color: "orange" }}>
-            FORO :
+            SEMINARIO TALLER:
           </Typography>
           <Typography variant={window.innerWidth > 768 ? "h6" : "p"} component="div" color='text.secondary'>
-            Inteligencia artificial en la ciencia de la salud.
+            Seminario Taller en Políticas Ecoómicas - Bolsa de Valores de Lima
           </Typography>
 
           <Typography variant={window.innerWidth > 768 ? "h6" : "p"} component="div" style={{ color: "orange" }}>
             DIRIGIDO :
           </Typography>
           <Typography variant={window.innerWidth > 768 ? "h6" : "p"} component="div" color='text.secondary'>
-            Estudiantes y profeciones de Medicina Humana, Enfermeria, Obstetricia, Biologia y Biotecnologia.
+            Público en general
           </Typography>
         </Grid>
         <Grid item xs={12} sm={12} md={6} lg={6}>
@@ -93,14 +93,14 @@ const ForoEnIA = () => {
             ESTRUCTURA Y MODALIDAD :
           </Typography>
           <Typography variant={window.innerWidth > 768 ? "h6" : "p"} component="div" color='text.secondary'>
-            Ponencias nacionales, Escaleta, Team Building + Fiesta esclusiva privada.
+            Plataforma Google Meet | Modalidad Virtual
           </Typography>
 
           <Typography variant={window.innerWidth > 768 ? "h6" : "p"} component="div" style={{ color: "orange" }}>
             ORGANIZACION :
           </Typography>
           <Typography variant={window.innerWidth > 768 ? "h6" : "p"} component="div" color='text.secondary'>
-            Smart Perú y SOCIEMCA.
+            Smart Perú
           </Typography>
         </Grid>
 
