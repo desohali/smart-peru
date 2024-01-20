@@ -193,7 +193,7 @@ const Home = () => {
                 <ListItemIcon>
                   <TouchAppIcon fontSize="small" />
                 </ListItemIcon>
-                <ListItemText>FORO EN IA</ListItemText>
+                <ListItemText>SEMINARIO TALLER</ListItemText>
               </MenuItem>
               <MenuItem onClick={() => {
                 handleCloseEE();
@@ -257,7 +257,7 @@ const Home = () => {
                 <ListItemIcon>
                   <TouchAppIcon fontSize="small" />
                 </ListItemIcon>
-                <ListItemText>CONSULTORÍA DE NEGOCIOS</ListItemText>
+                <ListItemText>CORPORATE MEETINGS & EVENTS</ListItemText>
               </MenuItem>
             </Menu>
           </Grid>
@@ -275,7 +275,7 @@ const Home = () => {
 
       <Grid item xs={12} sm={12} md={12} lg={12}>
         <Typography style={{ padding: "0px 2rem" }} align='center' color="text.secondary" variant={window.innerWidth > 768 ? "h4" : "p"} component="div">
-          Transformamos la educación de nuestras regiones entrenando a la próxima generación de profesionales del país.
+          Transformamos la educación de nuestras regiones entrenando a la próxima generación de profesionales del país. Bienvenido al mundo SMART ¡Vamos por más!
         </Typography>;
       </Grid>
 
