@@ -61,8 +61,7 @@ const SobreNosotros = () => {
               <strong>Misión :</strong>
             </Typography>
             <Typography variant={window.innerWidth > 768 ? "h6" : "p"} component="div" color='text.secondary'>
-              Brindar un servicio y asesoría educativa de primer nivel, que contribuya
-              eficientemente a la formación profesional de estudiantes y profesionales
+              Brindar un servicio en consultoría y asesoría empresarial de primer nivel, que contribuya eficientemente a la optimización de procesos de nuestros clientes y público en general.
               del país.
             </Typography>
           </Grid>
