@@ -15,6 +15,7 @@ import ConsultoriaDeNegocios from './components/ConsultoriaDeNegocios';
 import Administracion from './components/Administracion';
 import { useDispatch, useSelector } from 'react-redux';
 import counterSlice, { increment } from './features/counter/counterSlice';
+import Certificaciones from './components/Certificaciones';
 
 /* import {
   LoginSocialFacebook,
@@ -71,22 +72,22 @@ import {
     </div>
   )
 } */
-const first = (number) => {
+/* const first = (number) => {
   return (dispatch, getState) => {
     console.log('d', getState());
     dispatch(increment(number));
   }
-}
+} */
 
 function App() {
-  const value = useSelector((state) => state.counter.value);
+/*   const value = useSelector((state) => state.counter.value);
   console.log('value', value);
   const dispatch = useDispatch();
   
   React.useEffect(() => {
     dispatch(first(3));
     console.log('counterSlice.getInitialstate', Object.keys(counterSlice))
-  }, [])
+  }, []) */
   
 
   return (
@@ -97,6 +98,7 @@ function App() {
       <Route path="/foro-en-ia" element={<ForoEnIA />} />
       <Route path="/seminarios" element={<Seminarios />} />
       <Route path="/contactanos" element={<Contactanos />} />
+      <Route path="/certificaciones" element={<Certificaciones />} />
 
       <Route path="/registro-de-participante/:evento" element={<RegistroDeParticiante />} />
       <Route path="/convencion" element={<Convencion />} />

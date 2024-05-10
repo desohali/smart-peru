@@ -21,6 +21,7 @@ import { useNavigate } from 'react-router-dom';
 import Dialog from '@mui/material/Dialog';
 import CloseIcon from '@mui/icons-material/Close';
 import { styled } from '@mui/material/styles';
+import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   '& .MuiDialogContent-root': {
@@ -123,7 +124,7 @@ const Home = () => {
   };
 
   return (
-    <Grid container spacing={4}>
+    <Grid container spacing={4} >
       <Grid>
         <BootstrapDialog
           onClose={handleClose}
@@ -217,7 +218,7 @@ const Home = () => {
             </Button>
           </Grid>
 
-          {window.innerWidth > 768 && <Grid item xs={12} sm={12} md={3} lg={3}></Grid>}
+          {window.innerWidth > 768 && <Grid item xs></Grid>}
           <Grid item xs={12} sm={12} md={3} lg={3}>
             <Button
               className='bg-smart-peru'
@@ -266,9 +267,29 @@ const Home = () => {
               CONTACTANOS
             </Button>
           </Grid>
-          <Grid item xs={12} sm={12} md={3} lg={3}></Grid>
+          <Grid item xs={12} sm={12} md={3} lg={3}>
+            <Button startIcon={<WorkspacePremiumIcon/>} className='bg-smart-peru' onClick={() => navigate("./certificaciones")} color='success' fullWidth variant="contained">
+              CERTIFICACIONES
+            </Button>
+          </Grid>
+          <Grid item xs></Grid>
+
+
+          {/* <Grid item xs={12} sm={12} md={12} lg={12} style={{ background: "purple" }}>
+            <Grid container >
+              <Grid item xs></Grid>
+              <Grid item xs={12} sm={12} md={3} lg={3}>
+                <Button className='bg-smart-peru' onClick={() => navigate("./contactanos")} color='success' fullWidth variant="contained">
+                  CERTIFICACIONES
+                </Button>
+              </Grid>
+              <Grid item xs></Grid>
+            </Grid>
+          </Grid> */}
+
 
         </Grid>
+
       </Grid>
       <Grid item xs={12} sm={12} md={1} lg={1}></Grid>
 
