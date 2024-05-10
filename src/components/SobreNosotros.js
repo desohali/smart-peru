@@ -38,7 +38,7 @@ const SobreNosotros = () => {
               <strong>¿ Quiénes Somos ?</strong>
             </Typography>
             <Typography variant={window.innerWidth > 768 ? "h6" : "p"} component="div" color='text.secondary'>
-              SMARTPerú es una comunidad académica, en proceso de constitución de personería jurídica como SMARTPerú Consultores | Corporate Meetings & Events, en el rubro de consultoría y asesoría empresarial, del mismo modo en la  planificación, organización y materialización efectiva y exitosa de eventos corporativos, cursos, talleres, seminarios y demás actividades de nivel ejecutivo.
+              SMART PERÚ CONSULTORES S.A.C. Es una consultora empresarial, firma líder en servicios de asesoría empresarial en economía, finanzas, innovación y transformación. Orientada a dar respuesta a las necesidades existentes en la sociedad y en la economía actual. La marca representa un concepto de servicio diseñado para posibilitar la sostenibilidad económica, operacional, ambiental, social de empresa e ingeniería, administraciones públicas y particulares; aplicando soluciones eficientes, responsables y seguras.
             </Typography>
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={6}>
