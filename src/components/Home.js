@@ -7,7 +7,7 @@ import cambio1 from "../assets/images/ALTA ESPECIALIZACIIN SMARTPeru.jpg";
 import cambio2 from "../assets/images/ALTA ESPECIALIZACIOON SMART.jpg";
 import cambio3 from "../assets/images/FLYER VALIDAR CERTIFICACIONES.jpg";
 import cambio4 from "../assets/images/PROGRAMA DE ESPE.jpg";
-import cambio5 from "../assets/images/REDES SMART.jpg";
+import cambio5 from "../assets/images/REDES INTELIGENTES.jpg";
 import cambio6 from "../assets/images/SMARTPER CARRUSEL1.jpg";
 import cambio7 from "../assets/images/SMARTPER CARRUSEL1.jpg";
 import smartperu from "../assets/images/FLYER PROGRAMA DE ESPECIALIZACIÓN2.jpg";
