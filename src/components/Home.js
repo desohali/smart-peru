@@ -3,13 +3,13 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import cambio1 from "../assets/images/ALTA ESPECIALIZACIÓN SMART.jpg";
-import cambio2 from "../assets/images/ALTA ESPECIALIZACIÓN SMARTPeru.jpg";
+import cambio1 from "../assets/images/ALTA ESPECIALIZACIIN SMARTPeru.jpg";
+import cambio2 from "../assets/images/ALTA ESPECIALIZACIOON SMART.jpg";
 import cambio3 from "../assets/images/FLYER VALIDAR CERTIFICACIONES.jpg";
-import cambio4 from "../assets/images/PROGRAMA DE ESPECIALIZACIÓN.jpg";
+import cambio4 from "../assets/images/PROGRAMA DE ESPE.jpg";
 import cambio5 from "../assets/images/REDES SMART.jpg";
-import cambio6 from "../assets/images/SMARTPERÚ CARRUSEL1.jpg";
-import cambio7 from "../assets/images/SMARTPERÚ CARRUSEL2.jpg";
+import cambio6 from "../assets/images/SMARTPER CARRUSEL1.jpg";
+import cambio7 from "../assets/images/SMARTPER CARRUSEL1.jpg";
 import smartperu from "../assets/images/FLYER PROGRAMA DE ESPECIALIZACIÓN2.jpg";
 import { Button, DialogActions, DialogContent, DialogTitle, Grid, IconButton, ListItemIcon, ListItemText, Menu, MenuItem, Typography } from '@mui/material';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
