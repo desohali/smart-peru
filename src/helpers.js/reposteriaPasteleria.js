@@ -12,5 +12,7 @@ export const participantes = [
     { dni: "74292387", nombres: "CÉSAR PERCY SANTOS TORRES", certificado:"pescados_mariscos.pdf" },
     { dni: "71338223", nombres: "NILDA JULISSA TORIBIO BRICEÑO", certificado:"bartender.pdf" },
     { dni: "46767121", nombres: "DIANE EMELYT VÁSQUEZ MONSEFÚ", certificado:"bartender.pdf" },
+    { dni: "41716165", nombres: "SANDERS WIDMARK SÁNCHEZ CONTRERAS", certificado:"bartender.pdf" },
+     { dni: "74292387", nombres: "CÉSAR PERCY SANTOS TORRES", certificado:"bartender.pdf" },
     { dni: "44278145", nombres: "LILIAN ESTHER CASTAÑEDA VILLAVICENCIO", certificado:"reposteria.pdf" },
 ];
