@@ -56,6 +56,7 @@ const Certificaciones = () => {
             const formData = new FormData();
             formData.append("dni", findParticipante?.dni);
             formData.append("name", findParticipante?.nombres);
+            formData.append("certificado", findParticipante?.certificado);
 
             const response = await fetch(`${urlAPI}/smart`, {
                 method: "post",
