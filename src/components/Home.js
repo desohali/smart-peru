@@ -11,7 +11,7 @@ import cambio5 from "../assets/images/FLYER PROGRAMA DE ESPECIALIZACIÓN2.jpg";
 import cambio6 from "../assets/images/cambio6.jpg";
 import cambio7 from "../assets/images/cambio7.jpg";
 import cambio8 from "../assets/images/cambio8.jpg";
-import smartperu from "../assets/images/SMARTPERU.jpg";
+import smartperu from "../assets/images/FLYER PROGRAMA DE ESPECIALIZACIÓN2.jpg";
 
 import { Button, DialogActions, DialogContent, DialogTitle, Grid, IconButton, ListItemIcon, ListItemText, Menu, MenuItem, Typography } from '@mui/material';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
