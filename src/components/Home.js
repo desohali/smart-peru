@@ -131,7 +131,7 @@ const Home = () => {
           open={open}
         >
           <BootstrapDialogTitle id="customized-dialog-title" onClose={handleClose}>
-            BIENVENIDO A NUESTRO EVENTO EJECUTIVO: Experiencia sol, playa y arena - Sullana 2024
+            PROGRAMA DE ALTA ESPECIALIZACIÓN EN POLÍTICAS PÚBLICAS
           </BootstrapDialogTitle>
           <DialogContent dividers>
             <img width='100%' src={smartperu} />
