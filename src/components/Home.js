@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import cambio1 from "../assets/images/cambio1.jpg";
+import cambio1 from "../assets/images/CURSOS Y PROGRAMAS SMARTPerú.jpg";
 import cambio2 from "../assets/images/cambio2.jpg";
 import cambio3 from "../assets/images/cambio3.jpg";
 import cambio4 from "../assets/images/cambio4.jpg";
