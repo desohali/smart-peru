@@ -4,14 +4,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import cambio1 from "../assets/images/CURSOS Y PROGRAMAS SMARTPerú.jpg";
-import cambio2 from "../assets/images/cambio2.jpg";
-import cambio3 from "../assets/images/cambio3.jpg";
-import cambio4 from "../assets/images/cambio4.jpg";
-import cambio5 from "../assets/images/cambio5.jpg";
+import cambio2 from "../assets/images/SMARTPERU CONSUTORES1.jpg";
+import cambio3 from "../assets/images/SMARTPERU CONSUTORES5.jpg";
+import cambio4 from "../assets/images/FLYER PROGRAMA DE ESPECIALIZACIÓN.jpg";
+import cambio5 from "../assets/images/FLYER PROGRAMA DE ESPECIALIZACIÓN2.jpg";
 import cambio6 from "../assets/images/cambio6.jpg";
 import cambio7 from "../assets/images/cambio7.jpg";
 import cambio8 from "../assets/images/cambio8.jpg";
-import ia from "../assets/images/IA.jpeg";
 import smartperu from "../assets/images/SMARTPERU.jpg";
 
 import { Button, DialogActions, DialogContent, DialogTitle, Grid, IconButton, ListItemIcon, ListItemText, Menu, MenuItem, Typography } from '@mui/material';
