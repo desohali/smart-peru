@@ -72,7 +72,7 @@ const CertificacionesUpload = () => {
                 {/* lista de certificados */}
                 <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
                     {listaDeCertificados.map((certificado) => (
-                        <ListItem>
+                        <ListItem key={certificado?.name}>
                             <ListItemAvatar>
                                 <Avatar>
                                     <WorkspacePremiumIcon />
