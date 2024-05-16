@@ -76,9 +76,9 @@ const Home = () => {
       newImagenes[i].src = images[i];
     }
 
-    /* ia preload */
-    const iaImage = new Image();
-    iaImage.src = ia;
+    // ia preload
+    /* const iaImage = new Image();
+    iaImage.src = ia; */
   }, []);
 
   /* handler menu eventos ejecutivos (EE) */

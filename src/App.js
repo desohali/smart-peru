@@ -16,6 +16,7 @@ import Administracion from './components/Administracion';
 import { useDispatch, useSelector } from 'react-redux';
 import counterSlice, { increment } from './features/counter/counterSlice';
 import Certificaciones from './components/Certificaciones';
+import CertificacionesUpload from './components/CertificacionesUpload';
 
 /* import {
   LoginSocialFacebook,
@@ -80,15 +81,15 @@ import {
 } */
 
 function App() {
-/*   const value = useSelector((state) => state.counter.value);
-  console.log('value', value);
-  const dispatch = useDispatch();
-  
-  React.useEffect(() => {
-    dispatch(first(3));
-    console.log('counterSlice.getInitialstate', Object.keys(counterSlice))
-  }, []) */
-  
+  /*   const value = useSelector((state) => state.counter.value);
+    console.log('value', value);
+    const dispatch = useDispatch();
+    
+    React.useEffect(() => {
+      dispatch(first(3));
+      console.log('counterSlice.getInitialstate', Object.keys(counterSlice))
+    }, []) */
+
 
   return (
     <Routes>
@@ -105,6 +106,7 @@ function App() {
 
       <Route path="/asesoria-empresarial" element={<AsesoriaEmpresarial />} />
       <Route path="/consultoria-de-negocios" element={<ConsultoriaDeNegocios />} />
+      <Route path="/certificaciones/:clave" element={<CertificacionesUpload />} />
 
       <Route path="/" element={<Home />} >
       </Route>
