@@ -3,16 +3,14 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import cambio1 from "../assets/images/CURSOS Y PROGRAMAS SMARTPerú.jpg";
-import cambio2 from "../assets/images/SMARTPERU CONSUTORES1.jpg";
-import cambio3 from "../assets/images/SMARTPERU CONSUTORES5.jpg";
-import cambio4 from "../assets/images/FLYER PROGRAMA DE ESPECIALIZACIÓN.jpg";
-import cambio5 from "../assets/images/FLYER PROGRAMA DE ESPECIALIZACIÓN2.jpg";
-import cambio6 from "../assets/images/cambio6.jpg";
-import cambio7 from "../assets/images/cambio7.jpg";
-import cambio8 from "../assets/images/cambio8.jpg";
+import cambio1 from "../assets/images/ALTA ESPECIALIZACIÓN SMART.jpg";
+import cambio2 from "../assets/images/ALTA ESPECIALIZACIÓN SMARTPeru.jpg";
+import cambio3 from "../assets/images/FLYER VALIDAR CERTIFICACIONES.jpg";
+import cambio4 from "../assets/images/PROGRAMA DE ESPECIALIZACIÓN.jpg";
+import cambio5 from "../assets/images/REDES SMART.jpg";
+import cambio6 from "../assets/images/SMARTPERÚ CARRUSEL1.jpg";
+import cambio7 from "../assets/images/SMARTPERÚ CARRUSEL2.jpg";
 import smartperu from "../assets/images/FLYER PROGRAMA DE ESPECIALIZACIÓN2.jpg";
-
 import { Button, DialogActions, DialogContent, DialogTitle, Grid, IconButton, ListItemIcon, ListItemText, Menu, MenuItem, Typography } from '@mui/material';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import TouchAppIcon from '@mui/icons-material/TouchApp';
