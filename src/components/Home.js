@@ -61,7 +61,7 @@ const images = [
   cambio5,
   cambio6,
   cambio7,
-  cambio8,
+  
 ];
 
 const Home = () => {
