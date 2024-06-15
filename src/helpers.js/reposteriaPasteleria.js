@@ -10,6 +10,7 @@ export const participantes = [
     { dni: "71804505", nombres: "NANCY ZULEMA ALVA TIRADO", certificado:"reposteria.pdf" },
     { dni: "71228184", nombres: "DIANA ELVIRA ALIAGA GALLARDO", certificado:"AI-BVL.pdf" },
     { dni: "70174983", nombres: "DIEGO ANTONIO ESPINO VEJARANO", certificado:"AI-BVL.pdf" },
+    { dni: "74904159", nombres: "LOZANO COTRINA FRANK JEANPIERRE", certificado:"AI-BVL.pdf" },
     { dni: "74651507", nombres: "LICELY YONALY MANOSALVA CAMPOS", certificado:"AI-BVL.pdf" },
     { dni: "45372353", nombres: "ROSARIO DEL PILAR HEREDIA OLIVERA", certificado:"AI-BVL.pdf" },
     { dni: "73512520", nombres: "GABRIELA KATHERINE MICHILOT HUACHILLO", certificado:"AI-BVL.pdf" },
