@@ -8,6 +8,8 @@ export const participantes = [
     { dni: "47510951", nombres: "NEYDA  MILENY TORIBIO BRICEÑO", certificado:"pescados_mariscos.pdf" },
     { dni: "42756199", nombres: "MARTHA BETZABETH RODRÍGUEZ DÍAZ", certificado:"pescados_mariscos.pdf" },
     { dni: "71804505", nombres: "NANCY ZULEMA ALVA TIRADO", certificado:"reposteria.pdf" },
+    { dni: "71855065", nombres: "ERICK JHORDAN TORRES QUISPE", certificado:"DIPLOMADO EN GP.pdf" },
+    { dni: "71345597", nombres: "LUZ KARINA MONZON JARA", certificado:"DIPLOMADO EN GP.pdf" },
     { dni: "71228184", nombres: "DIANA ELVIRA ALIAGA GALLARDO", certificado:"AI-BVL.pdf" },
     { dni: "73186760", nombres: "MARILÚ ISAMAR RIOJAS BURGA", certificado:"AI-BVL.pdf" },
     { dni: "73122192", nombres: "GUADALUPE GABRIELA GARCÍA CABRERA", certificado:"AI-BVL.pdf" },
