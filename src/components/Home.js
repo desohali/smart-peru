@@ -10,7 +10,7 @@ import cambio4 from "../assets/images/PROGRAMA DE ESPE.jpg";
 import cambio5 from "../assets/images/REDES SMART.jpg";
 import cambio6 from "../assets/images/SMARTPER CARRUSEL1.jpg";
 import cambio7 from "../assets/images/SMARTPER CARRUSEL2.jpg";
-import smartperu from "../assets/images/FLYER PROGRAMA DE ESPECIALIZACIÓN2.jpg";
+import smartperu from "../assets/images/SMART02.jpg";
 import { Button, DialogActions, DialogContent, DialogTitle, Grid, IconButton, ListItemIcon, ListItemText, Menu, MenuItem, Typography } from '@mui/material';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import TouchAppIcon from '@mui/icons-material/TouchApp';
@@ -129,7 +129,7 @@ const Home = () => {
           open={open}
         >
           <BootstrapDialogTitle id="customized-dialog-title" onClose={handleClose}>
-            PROGRAMA DE ALTA ESPECIALIZACIÓN EN POLÍTICAS PÚBLICAS
+            CURSO DE INTELIGENCIA ARTIFICIAL PARA LOS NEGOCIOS
           </BootstrapDialogTitle>
           <DialogContent dividers>
             <img width='100%' src={smartperu} />
