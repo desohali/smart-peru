@@ -1,10 +1,11 @@
 export const participantes = [
     { dni: "47042298", nombres: "MIRIANN ARELY SANCHEZ CHAVEZ", certificado:"reposteria.pdf" },
     { dni: "71338215", nombres: "MARILYN YARALDI VILLANUEVA ESPEJO", certificado:"reposteria.pdf" },
-    { dni: "46273698", nombres: "MARGOT PONCE DE LA CRUZ", certificado:"PANADERIA.pdf" },
+    { dni: "46901654", nombres: "FLOR MARIANA RAMÍREZ ROSARIO", certificado:"PANADERIA.pdf" },
     { dni: "42372968", nombres: "SARITA HAYDÉE REYES BENITES", certificado:"reposteria.pdf" },
     { dni: "44382616", nombres: "ELICIA RAMIREZ CUSTODIO", certificado:"reposteria.pdf" },
-    { dni: "71396636", nombres: "MARY KATHERINE DURÁN AGUIRRE", certificado:"PANADERIA.pdf" },
+    { dni: "71396636", nombres: "MARY KATHERINE DURÁN AGUIRRE", certificado:"Certificado SMART PPCF.pdf" },
+    { dni: "46273698", nombres: "MARGOT PONCE DE LA CRUZ", certificado:"Certificado SMART PPCF.pdf" },
     { dni: "47510951", nombres: "NEYDA  MILENY TORIBIO BRICEÑO", certificado:"pescados_mariscos.pdf" },
     { dni: "42756199", nombres: "MARTHA BETZABETH RODRÍGUEZ DÍAZ", certificado:"pescados_mariscos.pdf" },
     { dni: "71804505", nombres: "NANCY ZULEMA ALVA TIRADO", certificado:"reposteria.pdf" },
@@ -36,15 +37,12 @@ export const participantes = [
     { dni: "45475919", nombres: "ROBERTO CARLOS ARMAS VÁSQUEZ", certificado:"Certificado SMART Pescados y Mariscos JULIO.pdf" },
     { dni: "42057264", nombres: "EDUARDO CALDERÓN LLANOS", certificado:"Certificado SMART Pescados y Mariscos JULIO.pdf" },
     { dni: "71767989", nombres: "ERICKA JAZMINA BELTRÁN CORTÉS ", certificado:"Certificado SMART Pescados y Mariscos JULIO.pdf" },
-
     { dni: "71226825", nombres: "FREDDY ORLANDO JULCA TORRES", certificado:"Certificado SMART Platos a la Carta.pdf" },
     { dni: "74439475", nombres: "ÁNGEL MAYCOL PRÍNCIPE JARA", certificado:"Certificado SMART Platos a la Carta.pdf" },
     { dni: "75088745", nombres: "RODRÍGUEZ CABELLOS YHENY YASMIN", certificado:"AI-BVL.pdf" },
     { dni: "73946809", nombres: "DEYSI FLORES ROJAS", certificado:"PANADERIA.pdf" },
-    
     { dni: "74439475", nombres: "ÁNGEL MAYCOL PRÍNCIPE JARA", certificado:"PANADERIA.pdf" },
     { dni: "70667738", nombres: "MARGARITA ISELA URTECHO ALVARADO", certificado:"PANADERIA.pdf" },
-    { dni: "46273698", nombres: "MARGOT PONCE DE LA CRUZ", certificado:"PANADERIA.pdf" },
     { dni: "71758539", nombres: "EVELYN MARILUZ CISNEROS QUISPE", certificado:"AI-BVL.pdf" },
     { dni: "70174983", nombres: "DIEGO ANTONIO ESPINO VEJARANO", certificado:"AI-BVL.pdf" },
     { dni: "74904159", nombres: "LOZANO COTRINA FRANK JEANPIERRE", certificado:"AI-BVL.pdf" },
@@ -64,8 +62,8 @@ export const participantes = [
     { dni: "72740259", nombres: "NELI ALEJANDRINA QUIROZ BADA", certificado:"reposteria.pdf" },
     { dni: "74292387", nombres: "CÉSAR PERCY SANTOS TORRES", certificado:"pescados_mariscos.pdf" },
     { dni: "71338223", nombres: "NILDA JULISSA TORIBIO BRICEÑO", certificado:"bartender.pdf" },
-    { dni: "46767121", nombres: "DIANE EMELYT VÁSQUEZ MONSEFÚ", certificado:"bartender.pdf" },
+    { dni: "46767121", nombres: "DIANE EMELYT VALDEZ MONSEFÚ", certificado:"bartender.pdf" },
     { dni: "41716165", nombres: "SANDERS WIDMARK SÁNCHEZ CONTRERAS", certificado:"bartender.pdf" },
      { dni: "74292387", nombres: "CÉSAR PERCY SANTOS TORRES", certificado:"bartender.pdf" },
-    { dni: "44278145", nombres: "LILIAN ESTHER CASTAÑEDA VILLAVICENCIO", certificado:"reposteria.pdf" },
+    
 ];
