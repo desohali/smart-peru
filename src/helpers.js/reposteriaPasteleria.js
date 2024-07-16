@@ -1,5 +1,6 @@
 export const participantes = [
     { dni: "47042298", nombres: "MIRIANN ARELY SANCHEZ CHAVEZ", certificado:"reposteria.pdf" },
+    { dni: "44278145", nombres: "LILIAN ESTHER CASTAÑEDA VILLAVICENCIO", certificado:"CERTIFICADO SMARTPerú Nutrición.pdf" },
     { dni: "71338215", nombres: "MARILYN YARALDI VILLANUEVA ESPEJO", certificado:"reposteria.pdf" },
     { dni: "46901654", nombres: "FLOR MARIANA RAMÍREZ ROSARIO", certificado:"PANADERIA.pdf" },
     { dni: "42372968", nombres: "SARITA HAYDÉE REYES BENITES", certificado:"reposteria.pdf" },
