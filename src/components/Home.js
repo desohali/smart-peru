@@ -19,6 +19,7 @@ import Dialog from '@mui/material/Dialog';
 import CloseIcon from '@mui/icons-material/Close';
 import { styled } from '@mui/material/styles';
 import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
+import EventAvailableIcon from '@mui/icons-material/EventAvailable';
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   '& .MuiDialogContent-root': {
@@ -215,7 +216,6 @@ const Home = () => {
             </Button>
           </Grid>
 
-          {window.innerWidth > 768 && <Grid item xs></Grid>}
           <Grid item xs={12} sm={12} md={3} lg={3}>
             <Button
               className='bg-smart-peru'
@@ -269,7 +269,11 @@ const Home = () => {
               CERTIFICACIONES
             </Button>
           </Grid>
-          <Grid item xs></Grid>
+          <Grid item xs={12} sm={12} md={3} lg={3}>
+            <Button href='https://economistascajamarca.org.pe/conep/' target='blank' startIcon={<EventAvailableIcon />} style={{ background: "#6A1510" }} fullWidth variant="contained">
+              CONEP 2024
+            </Button>
+          </Grid>
 
 
           {/* <Grid item xs={12} sm={12} md={12} lg={12} style={{ background: "purple" }}>
