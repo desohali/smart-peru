@@ -1,7 +1,7 @@
 export const participantes = [
-    { dni: "41714324", nombres: "Rivera Cardozo Pedro Lito", certificado:"CONSTANCIA CONEP.pdf" },
-    { dni: "45262156", nombres: "ERIK ADRIAN MONTOYA TERRONES", certificado:"CONSTANCIA CONEP.pdf" },
-    { dni: "08297889", nombres: "Fernando Ortiz Aguilar", certificado:"CONSTANCIA CONEP.pdf" },
+    { dni: "41714324", nombres: "Rivera Cardozo Pedro Lito", certificado:"CONSTANCIA CONEP24.pdf" },
+    { dni: "45262156", nombres: "ERIK ADRIAN MONTOYA TERRONES", certificado:"CONSTANCIA CONEP24.pdf" },
+    { dni: "08297889", nombres: "Fernando Ortiz Aguilar", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "47042298", nombres: "MIRIANN ARELY SANCHEZ CHAVEZ", certificado:"reposteria.pdf" },
     { dni: "44278145", nombres: "LILIAN ESTHER CASTAÑEDA VILLAVICENCIO", certificado:"CERTIFICADO SMARTPerú Nutrición.pdf" },
     { dni: "71338215", nombres: "MARILYN YARALDI VILLANUEVA ESPEJO", certificado:"reposteria.pdf" },
