@@ -133,7 +133,7 @@ const Home = () => {
             SOMOS PATROCINADORES OFICIALES DEL XXX CONGRESO NACIONAL DE ECONOMISTAS DEL PERÚ
           </BootstrapDialogTitle>
           <DialogContent dividers>
-            <img width='100%' src={smartperu} />
+            <img width='100%' src={CONEP} />
           </DialogContent>
           <DialogActions>
             <Button autoFocus onClick={handleClose}>
