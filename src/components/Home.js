@@ -130,7 +130,7 @@ const Home = () => {
           open={open}
         >
           <BootstrapDialogTitle id="customized-dialog-title" onClose={handleClose}>
-            CURSO DE INTELIGENCIA ARTIFICIAL PARA LOS NEGOCIOS
+            SOMOS PATROCINADORES OFICIALES DEL XXX CONGRESO NACIONAL DE ECONOMISTAS DEL PERÚ
           </BootstrapDialogTitle>
           <DialogContent dividers>
             <img width='100%' src={smartperu} />
