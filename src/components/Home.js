@@ -10,7 +10,7 @@ import cambio4 from "../assets/images/PROGRAMA DE ESPE.jpg";
 import cambio5 from "../assets/images/REDES SMART.jpg";
 import cambio6 from "../assets/images/SMARTPER CARRUSEL1.jpg";
 import cambio7 from "../assets/images/SMARTPER CARRUSEL2.jpg";
-import smartperu from "../assets/images/SMART02.jpg";
+import smartperu from "../assets/images/CONEP.jpg";
 import { Button, DialogActions, DialogContent, DialogTitle, Grid, IconButton, ListItemIcon, ListItemText, Menu, MenuItem, Typography } from '@mui/material';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import TouchAppIcon from '@mui/icons-material/TouchApp';
@@ -133,7 +133,7 @@ const Home = () => {
             SOMOS PATROCINADORES OFICIALES DEL XXX CONGRESO NACIONAL DE ECONOMISTAS DEL PERÚ
           </BootstrapDialogTitle>
           <DialogContent dividers>
-            <img width='100%' src={CONEP} />
+            <img width='100%' src={smartperu} />
           </DialogContent>
           <DialogActions>
             <Button autoFocus onClick={handleClose}>
