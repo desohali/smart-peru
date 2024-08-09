@@ -16,6 +16,7 @@ export const participantes = [
     { dni: "40014331", nombres: "HUMBERTO AGUSTÍN REYES CAMPOS", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "70181352", nombres: "EMI SOFIA ROBLEDO CHAVEZ", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "43520326", nombres: "CLAUDIA ROSSANA POMA GARCÍA", certificado:"CONSTANCIA CONEP24.pdf" },
+    { dni: "09073969", nombres: "Francisco Fernando Morante Jines", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "47042298", nombres: "MIRIANN ARELY SANCHEZ CHAVEZ", certificado:"reposteria.pdf" },
     { dni: "44278145", nombres: "LILIAN ESTHER CASTAÑEDA VILLAVICENCIO", certificado:"CERTIFICADO SMARTPerú Nutrición.pdf" },
     { dni: "71338215", nombres: "MARILYN YARALDI VILLANUEVA ESPEJO", certificado:"reposteria.pdf" },
