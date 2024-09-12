@@ -199,3 +199,4 @@ export const participantes = [
     { dni: "46901654", nombres: "FLOR MARIANA RAMÍREZ ROSARIO", certificado:"PANADERIA.pdf" },
     { dni: "41716165", nombres: "SANDERS WIDMARK SÁNCHEZ CONTRERAS", certificado:"bartender.pdf" },
     { dni: "74292387", nombres: "CÉSAR PERCY SANTOS TORRES", certificado:"bartender.pdf" },
+    ];
