@@ -45,6 +45,7 @@ export const participantes = [
     { dni: "26687456", nombres: "CUSTODIO BENZUNCE HENRY AMADEO", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "70248637", nombres: "ARIAS SALAS JORGE LUIS", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "73535301", nombres: "VILLEGAS DÍAZ VICTOR HUGO", certificado:"CONSTANCIA CONEP24.pdf" },
+    { dni: "74138505", nombres: "Alvitres Quispe Fiorella Isabel", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "28308818", nombres: "Munaylla Guerra Virginia Delma", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "15373023", nombres: "Rolando Gustavo Garcia Calderón", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "75582487", nombres: "ALVAREZ ROBLEDO ANTHONNY HUMBERTO", certificado:"CONSTANCIA CONEP24.pdf" },
