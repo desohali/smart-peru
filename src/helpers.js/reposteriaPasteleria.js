@@ -300,7 +300,6 @@ export const participantes = [
     { dni: "75874875", nombres: "ERIK JAIR RODRIGUEZ CIEZA", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "73335723", nombres: "MARBIL YAEL GUERRERO IRENE", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "06905509", nombres: "MARCO ANTONIO VILLASANTE SÁNCHEZ", certificado:"CONSTANCIA CONEP24.pdf" },
-    { dni: "74705947", nombres: "ESTRELLITA MARIBEL JIMENEZ", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "73531597", nombres: "GUERRERO YARLEQUE KELLY JESÚS", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "73131319", nombres: "HIDALGO MARQUEZ GERARDO ROBERANDY", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "70514905", nombres: "SEMINARIO TIMOTEO YESENIA JOCINEY", certificado:"CONSTANCIA CONEP24.pdf" },
