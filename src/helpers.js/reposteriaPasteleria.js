@@ -228,6 +228,7 @@ export const participantes = [
     { dni: "74690311", nombres: "TARRILLO VASQUEZ MERLIT LISETH", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "75021818", nombres: "ZAMBRANO CHILON FRANKLIN HENRY", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "71226039", nombres: "SUAREZ MALCA YONATHAN", certificado:"CONSTANCIA CONEP24.pdf" },
+    { dni: "06054278", nombres: "Roger Vasquez Chichipe ", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "71797198", nombres: "COJAL GAMBOA JUAN CARLOS", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "71330533", nombres: "SAAVEDRA ALVA DIEGO GABRIEL", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "75621675", nombres: "BUSTAMANTE BUSTAMANTE GIMENA DE LOS ÁNGELES", certificado:"CONSTANCIA CONEP24.pdf" },
