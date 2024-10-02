@@ -2,6 +2,7 @@ export const participantes = [
     { dni: "41714324", nombres: "Rivera Cardozo Pedro Lito", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "45262156", nombres: "ERIK ADRIAN MONTOYA TERRONES", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "04824192", nombres: "ROLANDO ALBERTO MOLINA BOCANGEL", certificado:"CONSTANCIA CONEP24.pdf" },
+    { dni: "46041552", nombres: "INCIO VARGAS MILAGROS DEL SOCORRO", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "08297889", nombres: "Fernando Ortiz Aguilar", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "09817348", nombres: "JOSÉ ADOLFO HINOJOSA PÉREZ", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "09817348", nombres: "Rullierd Sotomayor Terrones", certificado:"CONSTANCIA CONEP24.pdf" },
