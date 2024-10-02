@@ -16,6 +16,7 @@ export const participantes = [
     { dni: "21413192", nombres: "NANCY EMILIA SANTANDER FLORES", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "40014331", nombres: "HUMBERTO AGUSTÍN REYES CAMPOS", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "70181352", nombres: "EMI SOFIA ROBLEDO CHAVEZ", certificado:"CONSTANCIA CONEP24.pdf" },
+    { dni: "72690098", nombres: "BUSTAMANTE CARRANZA ALEX ANTHONY", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "43520326", nombres: "CLAUDIA ROSSANA POMA GARCÍA", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "73434947", nombres: "YANET BAUTISTA ROQUE", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "09073969", nombres: "Francisco Fernando Morante Jines", certificado:"CONSTANCIA CONEP24.pdf" },
