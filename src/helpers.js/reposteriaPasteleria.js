@@ -1,5 +1,7 @@
 export const participantes = [
     { dni: "70495770", nombres: "MASIEL GERALDINE GAMBOA JIMÉNEZ", certificado:"CERTIFICADO CONVENCIÓN 2024.pdf" },
+    { dni: "72772441", nombres: "Jhenny Lisbeth Vásquez Huamán", certificado:"CERTIFICADO CONVENCIÓN 2024.pdf" },
+    { dni: "71374842", nombres: "Analí del Carmen Culqui Cachay", certificado:"CERTIFICADO CONVENCIÓN 2024.pdf" },
     { dni: "70248637", nombres: "JORGE LUIS ARIAS SALAS", certificado:"CERTIFICADO CONVENCIÓN 2024.pdf" },
     { dni: "73937497", nombres: "GREYS LILETH AMBROSIO YUPANQUI", certificado:"CERTIFICADO CONVENCIÓN 2024.pdf" },
     { dni: "74475694", nombres: "GUEVARA COBA, DILMER", certificado:"CERTIFICADO CONVENCIÓN 2024.pdf" },
