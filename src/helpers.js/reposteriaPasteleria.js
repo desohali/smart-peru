@@ -1,4 +1,5 @@
 export const participantes = [
+    { dni: "70495770", nombres: "Masiel Geraldine Gamboa Jiménez", certificado:"CERTIFICADO CONVENCION.pdf" },
     { dni: "41714324", nombres: "Rivera Cardozo Pedro Lito", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "45262156", nombres: "ERIK ADRIAN MONTOYA TERRONES", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "04824192", nombres: "ROLANDO ALBERTO MOLINA BOCANGEL", certificado:"CONSTANCIA CONEP24.pdf" },
