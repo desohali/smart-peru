@@ -44,7 +44,7 @@ export const participantes = [
     { dni: "75513663", nombres: "BRISA MARIANELA SILVA ZAPATA", certificado:"CERTIFICADO CONVENCIÓN 2024.pdf" },
     { dni: "71870614", nombres: "MARYURI VERONIKA CORNEJO CALDERON", certificado:"CERTIFICADO CONVENCIÓN 2024.pdf" },
     { dni: "75121290", nombres: "MARITZA DEL PILAR GARCÍA IPANAQUÉ", certificado:"CERTIFICADO CONVENCIÓN 2024.pdf" },
-    { dni: "72753758", nombres: "JIMÉNES FLORES ELKIA", certificado:"CERTIFICADO CONVENCIÓN 2024.pdf" },
+    { dni: "72753758", nombres: "JIMÉNEZ FLORES ELKIA", certificado:"CERTIFICADO CONVENCIÓN 2024.pdf" },
     { dni: "41714324", nombres: "Rivera Cardozo Pedro Lito", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "45262156", nombres: "ERIK ADRIAN MONTOYA TERRONES", certificado:"CONSTANCIA CONEP24.pdf" },
     { dni: "04824192", nombres: "ROLANDO ALBERTO MOLINA BOCANGEL", certificado:"CONSTANCIA CONEP24.pdf" },
