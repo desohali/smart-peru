@@ -8,6 +8,7 @@ export const participantes = [
     { dni: "74532498", nombres: "EDICSON JHOEL SILVA CHIROQUE", certificado:"CERTIFICADO CONVENCIÓN 2024.pdf" },
     { dni: "45289899", nombres: "ALBERT DAVID CALDERON LAMA", certificado:"CERTIFICADO CONVENCIÓN 2024.pdf" },
     { dni: "42661736", nombres: "YULIANA ELOISA RAMIREZ AÑAZCO", certificado:"CERTIFICADO CONVENCIÓN 2024.pdf" },
+    { dni: "00001234", nombres: "LICELY YONALY MANOSALVA CAMPOS", certificado:"CERTIFICADO CONVENCIÓN 2024.pdf" },
     { dni: "70072909", nombres: "JUAN MANUEL ESPINOZA VALDIVIEZO", certificado:"CERTIFICADO CONVENCIÓN 2024.pdf" },
     { dni: "60943094", nombres: "GERALDINE BEATRIZ BARRETO VARGAS", certificado:"CERTIFICADO CONVENCIÓN 2024.pdf" },
     { dni: "72772441", nombres: "Jhenny Lisbeth Vásquez Huamán", certificado:"CERTIFICADO CONVENCIÓN 2024.pdf" },
