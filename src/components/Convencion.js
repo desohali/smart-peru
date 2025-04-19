@@ -13,7 +13,7 @@ const Convencion = () => {
     let interval;
     interval = setInterval(() => {
       const fechaActual = Date.parse(new Date());
-      const fechaDelEvento = Date.parse(new Date("2024-07-22"));
+      const fechaDelEvento = Date.parse(new Date("2024-11-27"));
       setFechaRestante(returnDiasHorasMinutosSegundos(((fechaDelEvento - fechaActual) / 1000)));
     }, 1000);
 
@@ -100,7 +100,7 @@ const Convencion = () => {
             ORGANIZACION Y DESARROLLO :
           </Typography>
           <Typography variant={window.innerWidth > 768 ? "h6" : "p"} component="div" color='text.secondary'>
-            La CONVENCIÓN NACIONAL en Ciencias Empresariales Sullana 2024 es desarrollado por SMARTPerú en alianza con instituciones nacionales y con el respaldo de instituciones regionales y locales, que se desarrollará del 22 al 26 de julio de 2024 en la ciudad de Sullana.
+            La CONVENCIÓN NACIONAL en Ciencias Empresariales Sullana 2024 es desarrollado por SMARTPerú y la Universidad Nacional de Frontera de Sullana, en alianza con instituciones nacionales y con el respaldo de instituciones regionales y locales, que se desarrollará del 27 al 29 de noviembre de 2024 en la ciudad de Sullana.
           </Typography>
         </Grid>
 
