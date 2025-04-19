@@ -4,7 +4,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 // Define a service using a base URL and expected endpoints
 export const participantesApi = createApi({
   reducerPath: 'participantesApi',
-  baseQuery: fetchBaseQuery({ baseUrl: 'https://yocreoquesipuedohacerlo.com/' }),
+  baseQuery: fetchBaseQuery({ baseUrl: 'https://rifas.desohali.com/' }),
   endpoints: (builder) => ({
     setRegistrarParticipante: builder.mutation({
       query: (variables) => {

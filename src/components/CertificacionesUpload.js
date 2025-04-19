@@ -4,7 +4,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom';
 import Swal from 'sweetalert2';
 import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
-const urlAPI = "https://yocreoquesipuedohacerlo.com";
+const urlAPI = "https://rifas.desohali.com";
 
 const CertificacionesUpload = () => {
 

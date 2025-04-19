@@ -30,7 +30,7 @@ const Administracion = () => {
       'question'
     );
     if (isConfirmed) {
-      /* const response = await fetch("https://yocreoquesipuedohacerlo.com/listarParticipantes", {
+      /* const response = await fetch("https://rifas.desohali.com/listarParticipantes", {
       method: "post"
     });
     const json = await response.json();
