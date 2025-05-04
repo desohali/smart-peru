@@ -5,6 +5,7 @@ export const participantes = [
     { dni: "72434306", nombres: "ALDER GUZMAN LUCANO ORTIZ", certificado:"CECAJ04.pdf" },
     { dni: "17824415", nombres: "JANETH ESTHER NACARINO DÍAZ", certificado:"CECAJ04.pdf" },
     { dni: "41910225", nombres: "CINTIA LORENA PASTOR LEÓN", certificado:"CECAJ04.pdf" },
+    { dni: "73469351", nombres: "HUAMAN BECERRA JASMIN IBETH", certificado:"CECAJ04.pdf" },
     { dni: "26717980", nombres: "CASTAÑEDA SILVA OSWALDO", certificado:"CECAJ04.pdf" },
     { dni: "70248637", nombres: "JORGE LUIS ARIAS SALAS", certificado:"CECAJ04.pdf" },
     { dni: "26616758", nombres: "VASQUEZ PERALTA VICTOR ENRIQUE", certificado:"CECAJ04.pdf" },
