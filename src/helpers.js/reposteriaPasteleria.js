@@ -1,4 +1,5 @@
 export const participantes = [
+    { dni: "48467084", nombres: "GHILMAR HUAMANTTUPA GÓNGORA", certificado:"COREECO.pdf" },
     { dni: "70495770", nombres: "MASIEL GERALDINE GAMBOA JIMÉNEZ", certificado:"CERTIFICADO CONVENCIÓN 2024.pdf" },
     { dni: "71820264", nombres: "CASTILLO CUZCO MARGARITA DEL CARMEN", certificado:"CECAJ04.pdf" },
     { dni: "73498842", nombres: "POTOSÍ QUISPE JOSÉ GUSTAVO", certificado:"CECAJ04.pdf" },
