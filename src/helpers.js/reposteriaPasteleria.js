@@ -1,4 +1,7 @@
 export const participantes = [
+    { dni: "20250901", nombres: "ROJAS GUTIERREZ SANDRA JACQUELINE", certificado:"CERTIFICADO UÑAS.pdf" },
+    { dni: "20250902", nombres: "GHILMAR HUAMANTTUPA GÓNGORA", certificado:"CERTIFICADO UÑAS.pdf" },
+    { dni: "20250903", nombres: "GHILMAR HUAMANTTUPA GÓNGORA", certificado:"CERTIFICADO UÑAS.pdf" },
     { dni: "48467084", nombres: "GHILMAR HUAMANTTUPA GÓNGORA", certificado:"COREECO.pdf" },
     { dni: "46070557", nombres: "JUAN MANUEL AQUINO CALCINA", certificado:"COREECO.pdf" },
     { dni: "89634710", nombres: "ROSA ADELI RUBIO TIRADO", certificado:"COREECO.pdf" },
