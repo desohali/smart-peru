@@ -1,5 +1,8 @@
 export const participantes = [
 { dni: "20250901", nombres:"ROJAS GUTIERREZ SANDRA JACQUELINE", certificado:"UNIAS1.pdf" },
+{ dni: "76452190", nombres:"SHARON JHOSELINE PAREDES CONDORI", certificado:"CERSTATA.pdf" },
+{ dni: "75995662", nombres:"EVONNY CONNIE SOBERON MELGAR", certificado:"CERSTATA.pdf" },
+{ dni: "60782729", nombres:"JESSAIDY MAIALEN QUICAÑO CHIRINOS", certificado:"CERSTATA.pdf" },
 { dni: "20250902", nombres:"GINA ABIGAIL JULCA PAREDES", certificado:"UNIAS1.pdf" },
 { dni: "20250903", nombres:"ANALI KRISTEL ALAYO VILELA", certificado:"UNIAS1.pdf" },
 { dni: "48467084", nombres:"GHILMAR HUAMANTTUPA GÓNGORA",certificado:"COREECO.pdf" },
