@@ -100,7 +100,7 @@ export const participantes = [
     { dni: "36634121", nombres: "LUZ FERNANDA TARCO NINA", certificado:"COREECO.pdf" },
     { dni: "60756741", nombres: "PIERO XAVIER CERQUERA HERNÁNDEZ", certificado:"COREECO.pdf" },
     { dni: "16756592", nombres: "JHOEL COSME ESTRADA RAMOS", certificado:"COREECO.pdf" },
-    { dni: "80403447", nombres: "JULIO CÉSAR CANAHUIRE HUAMANI", certificado:"COREECO.pdf" },
+{ dni: "80403447", nombres: "JULIO CÉSAR CANAHUIRE HUAMANI", certificado:"COREECO.pdf" },
     { dni: "41627193", nombres: "YAJAIRA ANAI ORTIZ TACO", certificado:"COREECO.pdf" },
     { dni: "76699336", nombres: "ALFREDO CALLOAPAZA CCAMA", certificado:"COREECO.pdf" },
     { dni: "18594491", nombres: "NORKA VRISS CURRO CHURA", certificado:"COREECO.pdf" },
