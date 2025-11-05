@@ -13,7 +13,7 @@ export const participantes = [
 { dni: "20250903", nombres:"ANALI KRISTEL ALAYO VILELA", certificado:"UNIAS1.pdf" },
 { dni: "20251001", nombres:"ROJAS GUTIERREZ SANDRA JACQUELINE", certificado:"CERTIFICADO ERIKA2.pdf" },
 { dni: "20251002", nombres:"GINA ABIGAIL JULCA PAREDES", certificado:"CERTIFICADO ERIKA2.pdf" },
-{ dni: "202510303", nombres:"CABEL ABANTO DE PAREDES STEPHANY IVONNE", certificado:"CERTIFICADO ERIKA2.pdf" },
+{ dni: "20251003", nombres:"CABEL ABANTO DE PAREDES STEPHANY IVONNE", certificado:"CERTIFICADO ERIKA2.pdf" },
 { dni: "20251101", nombres:"ROJAS GUTIERREZ SANDRA JACQUELINE", certificado:"CERTIFICADO ERIKA3.pdf" },
 { dni: "20251102", nombres:"GINA ABIGAIL JULCA PAREDES", certificado:"CERTIFICADO ERIKA3.pdf" },
 { dni: "20251103", nombres:"CABEL ABANTO DE PAREDES STEPHANY IVONNE", certificado:"CERTIFICADO ERIKA3.pdf" },
