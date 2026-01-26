@@ -903,6 +903,7 @@ export const participantes = [
     { dni: "70495770", nombres: "MASIEL GERALDINE GAMBOA JIMÉNEZ", certificado:"DIPLOMADO EN GP.pdf" },
     { dni: "71257572", nombres: "HUAMÁN MURGA JOEL", certificado:"DIPLOMADO EN GP.pdf" },
     { dni: "75452472", nombres: "VIDARTE SÁNCHEZ MILAGROS", certificado:"DIPLOMADO EN GP.pdf" },
+    { dni: "00002026", nombres: "YHENY YASMÍN RODRÍGUEZ CABELLOS", certificado:"DIPLOMADO EN GP.pdf" },
     { dni: "71374863", nombres: "VALDEZ YOPLA, SAMUEL YOJANIS", certificado:"DIPLOMADO EN GP.pdf" },
     { dni: "42359786", nombres: "ÓSCAR ORTIZ REGALADO", certificado:"DIPLOMADO EN GP.pdf" },
     { dni: "74475694", nombres: "DILMER GUEVARA COBA", certificado:"DIPLOMADO EN GP.pdf" },
