@@ -1,5 +1,6 @@
 export const participantes = [
 { dni: "20250901", nombres:"ROJAS GUTIERREZ SANDRA JACQUELINE", certificado:"UNIAS1.pdf" },
+{ dni: "25012026", nombres:"YHENY YASMIN RODRIGUEZ CABELLOS", certificado:"DIPLOMADO EN GP.pdf" },
 { dni: "45913670", nombres:"HUGO WALTER MEDINA BUENO", certificado:"CERTIFICADO SMARTPerú CONSULTORES Innovaciones Pedagógicas Estratégicas.pdf" },
 { dni: "76452190", nombres:"SHARON JHOSELINE PAREDES CONDORI", certificado:"CERSTAT.pdf" },
 { dni: "75995662", nombres:"EVONNY CONNIE SOBERON MELGAR", certificado:"CERSTAT.pdf" },
@@ -904,7 +905,6 @@ export const participantes = [
     { dni: "71257572", nombres: "HUAMÁN MURGA JOEL", certificado:"DIPLOMADO EN GP.pdf" },
     { dni: "75452472", nombres: "VIDARTE SÁNCHEZ MILAGROS", certificado:"DIPLOMADO EN GP.pdf" },
     { dni: "71374863", nombres: "VALDEZ YOPLA, SAMUEL YOJANIS", certificado:"DIPLOMADO EN GP.pdf" },
-    { dni: "25012026", nombres: "YHENY YASMIN RODRIGUEZ CABELLOS", certificado:"DIPLOMADO EN GP.pdf" },
     { dni: "42359786", nombres: "ÓSCAR ORTIZ REGALADO", certificado:"DIPLOMADO EN GP.pdf" },
     { dni: "74475694", nombres: "DILMER GUEVARA COBA", certificado:"DIPLOMADO EN GP.pdf" },
     { dni: "71967920", nombres: "ORLANDO ACUÑA TINOCO", certificado:"DIPLOMADO EN GP.pdf" },
