@@ -1,6 +1,7 @@
 export const participantes = [
 { dni: "20250901", nombres:"ROJAS GUTIERREZ SANDRA JACQUELINE", certificado:"UNIAS1.pdf" },
 { dni: "25012026", nombres:"YHENY YASMIN RODRIGUEZ CABELLOS", certificado:"DIPLOMADO EN GP.pdf" },
+{ dni: "20261802", nombres: "DIANA ELVIRA ALIAGA GALLARDO", certificado:"DIPLOMADO EN GP.pdf" },
 { dni: "45913670", nombres:"HUGO WALTER MEDINA BUENO", certificado:"CERTIFICADO SMARTPerú CONSULTORES Innovaciones Pedagógicas Estratégicas.pdf" },
 { dni: "76452190", nombres:"SHARON JHOSELINE PAREDES CONDORI", certificado:"CERSTAT.pdf" },
 { dni: "75995662", nombres:"EVONNY CONNIE SOBERON MELGAR", certificado:"CERSTAT.pdf" },
