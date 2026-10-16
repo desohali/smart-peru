@@ -111,7 +111,7 @@ const Home = () => {
     pauseOnHover: false
   };
 
-  /* modal dialog */
+  /* modal dialog setting*/
   const [open, setOpen] = React.useState(true);
 
   const handleClickOpen = () => {
