@@ -111,7 +111,7 @@ const Home = () => {
     pauseOnHover: false
   };
 
-  /* modal dialog */
+  /* modal dialog setting*/
   const [open, setOpen] = React.useState(true);
 
   const handleClickOpen = () => {
@@ -130,7 +130,7 @@ const Home = () => {
           open={open}
         >
           <BootstrapDialogTitle id="customized-dialog-title" onClose={handleClose}>
-            🎟️¡Este 2025, vive la experiencia SMART con Joinnus! 🎟️
+            🎟️¡Este 2026, vive la experiencia SMART con Joinnus! 🎟️
           </BootstrapDialogTitle>
           <DialogContent dividers>
             <img width='100%' src={smartperu} />
