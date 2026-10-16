@@ -8,7 +8,7 @@ import ContentPasteSearchIcon from '@mui/icons-material/ContentPasteSearch';
 import Swal from 'sweetalert2';
 import { participantes } from '../helpers.js/reposteriaPasteleria';
 
-const urlAPI = "https://rifas.desohali.com";
+const urlAPI = "https://rifas.lestrigonia.com";
 
 // schema form about me
 const formikSchema = Yup.object().shape({
